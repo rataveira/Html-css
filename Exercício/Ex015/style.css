@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background-color: blanchedalmond;
+}
+
+h1{
+    color: rgb(180, 48, 48);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: brown;
+    color: whitesmoke;
+}
+
+h2{
+    text-align: right;
+}
+
+.basico{
+    color: rgb(35, 141, 130);
+}
+
+.inter{
+    color: rgb(136, 136, 10);
+}
+
+.adv{
+    color: blueviolet;
+}
+
+p{
+    text-indent: 30px;
+    text-align: justify;
+}

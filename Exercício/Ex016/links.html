@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links (pseudo-elementos)</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: rgb(45, 141, 42);
+            text-decoration: none;
+        }
+
+        a:visited{
+            color: rgb(46, 60, 139);
+            font-weight: bold;
+        }
+
+        a:hover{
+            color: sienna;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        .especial{
+            background-color: rgb(240, 173, 240);
+        }
+
+        .especial::before{
+            content: '=>';
+        }
+
+        .especial::after{
+            content: '<=';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="http://www.youtube.com" target="_blank">Site do Youtube</a></li>
+        <li><a href="http://www.facebook.com" target="_blank" class="especial">Site do Facebook</a></li>
+        <li><a href="http://www.instagram.com" target="_blank">Site do Instagram</a></li>
+    </ul>
+</body>
+</html>
