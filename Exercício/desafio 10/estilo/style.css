@@ -113,6 +113,10 @@ main img {
     width: 100%;
 }
 
+main img.rog {
+    width: 50%;
+}
+
 main p {
     margin: 15px 0px;
     text-align: justify;
