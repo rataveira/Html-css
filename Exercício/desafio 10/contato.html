@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <meta http-equiv="Cache-Control" content="no-store" />  <!--Para desabilitar o cache: fazer isso só durante desenvolvimento-->
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <header>
+        <h1>Curiosidades de Tecnologia</h1>
+        <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar!</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="android.html">Notícias</a>
+        <a href="contato.html">Contato</a>
+        <a href="sobre.html">Sobre</a>
+    </nav>
+    <main>
+        <h1>Contato</h1>
+        <h2>Entre em contato conosco</h2>
+
+        <form>
+            <fieldset id="contato"><legend>Contato</legend>
+                <p>Nome: <input type="text" name="nnome" id="idnome" maxlength="60" size="60"></p>
+                <p>E-mail: <input type="email" name="nemail" id="idemail" maxlength="60" size="60"></p>
+                <p><fieldset style="width: 400px;"><legend>Sexo</legend>
+                    <input type="radio" name="nsexo" id="idmasc"><label for="idmasc">Masculino</label>
+                    <input type="radio" name="nsexo" id="idfem"><label for="idfem">Feminino</label>
+                    <input type="radio" name="nsexo" id="idnao"><label for="idnao">Não declarado</label>
+                </fieldset></p>
+                <p>Motivo do Contato: <textarea name="nmotivo" id="idmotivo" cols="60" rows="10"></textarea></p>
+                <input type="submit" value="Enviar!" style="width: 10%;">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>
+            Site criado por <a href="sobre.html">Rogério A. Taveira</a> com o auxílio de <a href="https://www.cursoemvideo.com/sucesso/" target="_blank">Curso em Vídeo</a>.
+        </p>
+    </footer>
+</body>
+</html>
